@@ -1,0 +1,32 @@
+🧠 Business Problem: Optimizing Sales and Inventory in Retail Orders
+
+A retail company sells products across multiple regions and wants to optimize their sales performance, inventory planning, and customer satisfaction. 
+They track orders in a central database (orders table) including details like order date, product, price, quantity, region, and payment method.
+
+🎯 Objective:
+
+To identify the root causes of low profitability and recommend actionable solutions to improve margins.
+
+Tools to Solve It:
+	•	BigQuery or SQL for data aggregation & profit calculations
+	•	Tableau / Power BI for visualizing sales vs. profit by product, region, and time
+	•	Python (Pandas, Matplotlib) for deeper trend or customer segmentation analysis
+
+📊 Key Business Insights from Retail Orders based on queries:
+
+	•	Tracks monthly sales growth year-over-year.
+	•	Identifies seasonal trends: e.g., if December consistently spikes, plan marketing or inventory accordingly.
+	•	A drop in certain months in 2023 vs 2022 can prompt a deeper dive (e.g., customer churn, supply chain delays, etc.).
+	•	Useful for executive reporting and forecasting models.
+	•	This query reveals which products are the biggest contributors to total revenue.
+	•	Use this data for inventory prioritization, marketing campaigns, or bundle promotions.
+	•	If a few products dominate revenue, it might signal dependency risk or opportunities for upselling.
+	•	Identifies regional sales preferences or trends.
+	•	Helps in regional product optimization — e.g., stock high sellers in those regions, or target ads based on demand.
+	•	Enables geo-targeted pricing or customized product mixes.
+
+📌 Summary Recommendations:
+	•	🛍 Focus campaigns on your top 5 products in each region.
+	•	🧠 Consider expanding inventory for top-performing SKUs.
+	•	📉 If revenue dropped month-over-month in 2023, investigate causal factors: pricing, competitor activity, or operational disruptions.
+	•	📦 Use these insights to align sales strategy, stock management, and customer engagement.
